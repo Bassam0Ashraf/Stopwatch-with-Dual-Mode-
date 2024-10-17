@@ -2,10 +2,10 @@
 
 This project involves creating a versatile stopwatch that operates in two distinct modes using ATmega32 :
 
-1. Increment Mode (Default): The stopwatch counts upwards from zero, displaying hours,
+1. **Increment Mode (Default):** The stopwatch counts upwards from zero, displaying hours,
 minutes, and seconds on six seven-segment displays.
 
-2. Countdown Mode: The stopwatch counts downwards from a user-defined time,
+2. **Countdown Mode:** The stopwatch counts downwards from a user-defined time,
 functioning as a countdown timer
 
 # **Features:**
