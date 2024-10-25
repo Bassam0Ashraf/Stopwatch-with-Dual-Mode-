@@ -31,6 +31,10 @@ seconds).
 
 5. **Push Buttons:** For adjusting time and toggling modes.
 
+![Screenshot 2024-10-26 001316](https://github.com/user-attachments/assets/04b0269b-36e9-4969-a69d-dd6401d4c837)
+
+
+
 # **Operation Description:**
 - **Increment Mode:** By default, the stopwatch starts in increment mode, where the time
 counts up continuously from zero. The time is displayed across six seven-segment displays,
