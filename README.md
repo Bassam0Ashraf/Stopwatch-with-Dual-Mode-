@@ -1,47 +1,34 @@
-# **Project Overview:**
+# Dual-Mode Stopwatch  
 
-This project involves creating a versatile stopwatch that operates in two distinct modes using ATmega32 :
+## 📖 Project Overview  
+Develop a versatile stopwatch system using ATmega32 microcontroller, featuring increment and countdown modes with user interaction and alerts.
 
-1. **Increment Mode (Default):** The stopwatch counts upwards from zero, displaying hours,
-minutes, and seconds on six seven-segment displays.
+## 🎯 Objectives  
+- Provide a flexible stopwatch that counts up or down, displaying time in hours, minutes, and seconds.  
+- Enable user interaction for resetting, pausing, resuming, and toggling modes.  
+- Use visual and audio indicators for mode status and countdown completion.
 
-2. **Countdown Mode:** The stopwatch counts downwards from a user-defined time,
-functioning as a countdown timer
+## 💡 Features  
+- **Increment Mode:** Default mode counts up from zero with red LED indicator.  
+- **Countdown Mode:** User sets countdown time, and stopwatch counts down with yellow LED indicator.  
+- **Reset Function:** Resets time to zero in both modes.  
+- **Pause & Resume:** Pause holds current time; resume continues from paused value.  
+- **Mode Toggle:** Switches between increment and countdown modes.  
+- **Buzzer Alert:** Activated when countdown reaches zero.
 
-# **Features:**
+## 📚 Hardware Components  
+- **Microcontroller:** ATmega32  
+- **Display:** Six seven-segment displays for hours, minutes, and seconds  
+- **LED Indicators:** Red (increment), Yellow (countdown)  
+- **Buzzer:** Sounds at countdown completion  
+- **Push Buttons:** Adjust time and toggle modes  
 
-1. **Reset Function:** Resets the time to zero in both modes.
+![Stopwatch](https://github.com/user-attachments/assets/04b0269b-36e9-4969-a69d-dd6401d4c837)  
 
-2. **Pause Function:** Pauses the time counting, allowing the stopwatch to hold its current value.
+## 🚀 Operation Highlights  
+- **Increment Mode:** Stopwatch starts by counting up; red LED indicates active mode.  
+- **Countdown Mode:** User sets time; yellow LED indicates mode; buzzer triggers at zero.  
+- **Mode Control:** Use buttons to switch modes and adjust settings.  
+- **Display:** Real-time time display using six seven-segment displays.
 
-3. **Resume Function:** Resumes counting from the paused time.
-
-4. **Mode Toggle:** Switches between increment and countdown modes.
-
-
-# **Key Hardware & Software Components:**
-1. **Microcontroller:** ATmega32
-
-2. **7-Segment Display:** Used to display the current time (hours, minutes, and
-seconds).
-
-3. **LED Indicators:** To indicate the current mode (increment or countdown).
-
-4. **Buzzer:** Activated when the countdown reaches zero.
-
-5. **Push Buttons:** For adjusting time and toggling modes.
-
-![Screenshot 2024-10-26 001316](https://github.com/user-attachments/assets/04b0269b-36e9-4969-a69d-dd6401d4c837)
-
-
-
-# **Operation Description:**
-- **Increment Mode:** By default, the stopwatch starts in increment mode, where the time
-counts up continuously from zero. The time is displayed across six seven-segment displays,
-showing hours, minutes, and seconds. The red LED is turned on to indicate increment mode.
-
-- **Countdown Mode:** When the mode toggle button is pressed, the stopwatch switches to
-countdown mode. In this mode, the user can set the desired countdown time using the
-hour, minute, and second adjustment buttons. The countdown begins once the
-start/resume button is pressed. A yellow LED on is turned on to indicate countdown
-mode. An alarm is triggered when the countdown reaches zero.
+---  
